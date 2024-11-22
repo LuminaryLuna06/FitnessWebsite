@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input, form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #fff;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
